@@ -1,12 +1,12 @@
-﻿using NUnit.Framework;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NFluent;
 
 namespace Project
 {
-    [TestFixture]
+    [TestClass]
     public class Tests
     {
-        [Test]
+        [TestMethod]
         public void Test1()
         {
             Solution.DoIt();
